@@ -8,6 +8,9 @@ public class Init {
         System.out.println("after");
         System.out.println(init.s1);
         System.out.println(init.s2);
+        for (String sr:System.getenv().keySet()) {
+            System.out.println(sr + " = " + System.getenv().get(sr));
+        }
     }
 
 }
