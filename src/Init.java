@@ -1,3 +1,5 @@
+import myPackage.ClassWithProtected;
+
 /**
  * Created by sirdir on 09.04.17.
  */
@@ -11,6 +13,11 @@ public class Init {
         for (String sr:System.getenv().keySet()) {
             System.out.println(sr + " = " + System.getenv().get(sr));
         }
+        ClassWithProtected cp = new ClassWithProtected();
+//        cp.methodPriv();
+//        cp.methodPackage();
+//        cp.methodProt();
+        cp.methodPub();
     }
 
 }
