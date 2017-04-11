@@ -18,6 +18,11 @@ public class Init {
 //        cp.methodPackage();
 //        cp.methodProt();
         cp.methodPub();
+        ChildOfProtected ccp = new ChildOfProtected();
+//        cp.methodPriv();
+//        cp.methodPackage();
+//        cp.methodProt();
+        cp.methodPub();
     }
 
 }
