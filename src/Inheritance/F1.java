@@ -7,4 +7,7 @@ public class F1 {
     F1(int i){
         System.out.println(i);
     }
+    F1(){
+        System.out.println("lol");
+    }
 }
