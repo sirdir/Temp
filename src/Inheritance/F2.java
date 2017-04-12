@@ -9,4 +9,12 @@ public class F2 extends F1 {
     F2(int i){
         super(i);
     }
+
+    void methodF(String str){
+        System.out.println(str);
+    }
+
+    void methodP(){
+        System.out.println("new one");
+    }
 }

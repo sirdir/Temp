@@ -10,4 +10,11 @@ public class F1 {
     F1(){
         System.out.println("lol");
     }
+    final void methodF(){
+        System.out.println("final method");
+    }
+
+    private void methodP(){
+        System.out.println("private method");
+    }
 }

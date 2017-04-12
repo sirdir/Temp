@@ -9,5 +9,7 @@ public class InitPoint {
         Third thrd = new Third();
         obj.doSmth();
 //        obj.noExist();
+        F2 f2 = new F2();
+        f2.methodP();
     }
 }
