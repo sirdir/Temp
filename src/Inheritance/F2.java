@@ -17,4 +17,8 @@ public class F2 extends F1 {
     void methodP(){
         System.out.println("new one");
     }
+
+    void methodNew(){
+        System.out.println("Hello world!");
+    }
 }

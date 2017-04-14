@@ -11,5 +11,6 @@ public class InitPoint {
 //        obj.noExist();
         F2 f2 = new F2();
         f2.methodP();
+        new Print(5);
     }
 }
